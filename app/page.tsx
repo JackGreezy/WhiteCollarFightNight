@@ -76,7 +76,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Events Section */}
+        {/* Events Section
         <section id="events" className="w-full py-12 md:py-24 relative">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center space-y-4 text-center">
@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
                 <div className="bg-gray-900 p-6 rounded-lg border border-white/30">
                   <h3 className="text-xl font-bold text-white mb-2">DATE</h3>
-                  <p>Coming Soon</p>
+                  <p>July 2025</p>
                 </div>
                 <div className="bg-gray-900 p-6 rounded-lg border border-blue-600">
                   <h3 className="text-xl font-bold text-blue-500 mb-2">TICKETS</h3>
@@ -101,7 +101,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* About Section */}
         <section id="about" className="w-full py-12 md:py-24 bg-gradient-to-b from-black to-blue-950/50">

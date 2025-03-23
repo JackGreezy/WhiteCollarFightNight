@@ -27,7 +27,7 @@ export default function GalleryPage() {
               <div className="space-y-2">
                 <h1 className="text-3xl font-bold tracking-tighter md:text-4xl text-white">GALLERY</h1>
                 <div className="w-24 h-1 bg-red-500 mx-auto"></div>
-                <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">Highlights from our previous events.</p>
+                <p className="mx-auto max-w-[700px] text-gray-300 md:text-xl">Highlights from our training sessions.</p>
               </div>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
                 {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((item) => (

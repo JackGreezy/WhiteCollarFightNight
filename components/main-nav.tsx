@@ -18,7 +18,8 @@ export function MainNav() {
         <Link href="/" className="text-red-500 hover:text-red-400 transition-colors font-medium">
           HOME
         </Link>
-        <div className="relative group">
+        {/* Comment out the EVENTS tab and its dropdown */}
+        {/* <div className="relative group">
           <Link
             href="/events"
             className="flex items-center text-white hover:text-red-400 transition-colors font-medium"
@@ -47,18 +48,16 @@ export function MainNav() {
               Past Events
             </Link>
           </div>
-        </div>
+        </div> */}
         <Link href="/about" className="text-white hover:text-red-400 transition-colors font-medium">
           ABOUT
         </Link>
         <Link href="/gallery" className="text-blue-500 hover:text-blue-400 transition-colors font-medium">
           GALLERY
         </Link>
-
         <Link href="/philanthropy" className="text-white hover:text-red-400 transition-colors font-medium">
           PHILANTHROPY
         </Link>
-
         <Link href="/faq" className="text-blue-500 hover:text-blue-400 transition-colors font-medium">
           FAQ
         </Link>
@@ -80,7 +79,8 @@ export function MainNav() {
             >
               HOME
             </Link>
-            <div className="space-y-2">
+            {/* Comment out the EVENTS tab and its nested links */}
+            {/* <div className="space-y-2">
               <Link
                 href="/events"
                 className="text-white hover:text-red-400 transition-colors font-medium"
@@ -104,7 +104,7 @@ export function MainNav() {
                   Past Events
                 </Link>
               </div>
-            </div>
+            </div> */}
             <Link
               href="/about"
               className="text-white hover:text-red-400 transition-colors font-medium"
@@ -119,7 +119,6 @@ export function MainNav() {
             >
               GALLERY
             </Link>
-
             <Link
               href="/philanthropy"
               className="text-white hover:text-red-400 transition-colors font-medium"
@@ -127,7 +126,6 @@ export function MainNav() {
             >
               PHILANTHROPY
             </Link>
-
             <Link
               href="/faq"
               className="text-blue-500 hover:text-blue-400 transition-colors font-medium"
@@ -141,4 +139,3 @@ export function MainNav() {
     </>
   )
 }
-
